@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A tag &lt;meta&gt;</title>
+    <link rel="stylesheet" href="../../../global.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Tag &lt;meta&gt;</h1>
+      <a href="../../html/referencias.html#meta">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+    </div>
+    <hr />
+    <div class="tag_content">
+      <h2>Definição e Uso</h2>
+    <div class="def">
+      <p>
+        A tag &lt;meta&gt; define metadados sobre um documento HTML. Metadados são dados (informações) sobre dados.<br />
+        &lt;meta&gt; tags sempre vão dentro do elemento &lt;head&gt; e são normalmente usadas para especificar conjunto de caracteres, descrição de página, palavras-chave, autor do documento e configurações de janela de visualização.<br />
+        Os metadados não serão exibidos na página, mas podem ser analisados ​​pela máquina.<br />
+        Os metadados são usados ​​por navegadores (como exibir conteúdo ou recarregar a página), mecanismos de pesquisa (palavras-chave) e outros serviços da web.<br />
+        Existe um método para permitir que os web designers controlem a janela de visualização (a área visível do usuário em uma página da web), por meio da tag &lt;meta&gt; (consulte o exemplo "Configurando a janela de visualização" abaixo).<br />
+      </p>
+    </div>
+
+    <h2>Exemplo</h2>
+    <p>Descreva os metadados em um documento HTML:</p>
+    <div class="code">
+        <pre>
+            <code>
+                &lt;head&gt;
+                    &lt;meta charset = "UTF-8"&gt;
+                    &lt;meta name = "descrição" content = "Tutoriais da Web grátis"&gt;
+                    &lt;meta name = "palavras-chave" content = "HTML, CSS, JavaScript"&gt;
+                    &lt;meta name = "autor" content = "John Doe"&gt;
+                    &lt;meta name = "viewport" content = "width = device-width, initial-scale = 1.0"&gt;
+                &lt;/head&gt;
+            </code>
+        </pre>
+    </div>
+
+    <h2>Atributos</h2>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Atributos</th>
+            <th>Valor</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>charset</td>
+            <td><i>character_set</i></td>
+            <td>
+                Especifica a codificação de caracteres para o documento HTML
+            </td>
+          </tr>
+          <tr>
+            <td>content</td>
+            <td><i>text</i></td>
+            <td>
+                Especifica o valor associado ao atributo http-equiv ou name
+            </td>
+          </tr>
+          <tr>
+            <td>http-equiv</td>
+            <td>
+                content-security-policy<br />
+                content-type<br />
+                default-style<br />
+                refresh
+            </td>
+            <td>
+                Fornece um cabeçalho HTTP para a informação / valor do atributo content
+            </td>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td>
+                application-name<br />
+                author<br />
+                description<br />
+                generator<br />
+                keywords<br />
+                viewport<br />
+            </td>
+            <td>
+                Especifica um nome para os metadados
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    
+    <hr />
+    <footer>
+      <a href="../../html/referencias.html#script">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+      <p>
+        IFNMG - Campus Montes Claros<br />
+        Desenvolvimento Web<br />
+        ©2021
+      </p>
+    </footer>
+  </body>
+</html>

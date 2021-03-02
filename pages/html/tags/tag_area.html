@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A tag &lt;area&gt;</title>
+    <link rel="stylesheet" href="../../../global.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Tag &lt;area&gt;</h1>
+      <a href="../../html/referencias.html#area">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+    </div>
+    <hr />
+    <div class="tag_content">
+      <h2>Definição e Uso</h2>
+    <div class="def">
+      <p>
+        A tag &lt;area&gt; define uma área dentro de um mapa de imagem (um mapa de imagem é uma imagem com áreas clicáveis).<br />
+        &lt;area&gt; os elementos estão sempre aninhados dentro de uma &lt;map&gt;tag.<br />
+        Observação: o usemapatributo em &lt;img&gt; está associado ao atributo &lt;map&gt;do elemento namee cria um relacionamento entre a imagem e o mapa.<br />
+      </p>
+    </div>
+
+    <h2>Exemplo</h2>
+    <p>Um mapa de imagem, com áreas clicáveis:</p>
+    <div class="code">
+      <pre>
+            <code>
+                &lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"&gt;
+
+                &lt;map name="workmap"&gt;
+                    &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt;
+                    &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"&gt;
+                    &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"&gt;
+                &lt;/map&gt;
+            </code>
+        </pre>
+    </div>
+
+    <h2>Atributos</h2>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Atributos</th>
+            <th>Valor</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>alt</td>
+                <td><i>text</i></td>
+                <td>
+                    Especifica um texto alternativo para a área. Obrigatório se o atributo href estiver presente
+                </td>
+            </tr>
+
+            <tr>
+                <td>coords</td>
+                <td><i>coordinates</i></td>
+                <td>
+                    Especifica as coordenadas da área
+                </td>
+              </tr>
+
+              <tr>
+                <td>download</td>
+                <td><i>filename</i></td>
+                <td>
+                    Especifica que o destino será baixado quando um usuário clicar no hiperlink
+                </td>
+              </tr>
+
+              <tr>
+                <td>href</td>
+                <td><i>URL</i></td>
+                <td>
+                    Especifica o destino do hiperlink para a área
+                </td>
+              </tr>
+
+              <tr>
+                <td>hreflang</td>
+                <td><i>language_code</i></td>
+                <td>
+                    Especifica o idioma do URL de destino
+                </td>
+              </tr>
+
+              <tr>
+                <td>media</td>
+                <td><i>media query</i></td>
+                <td>
+                    Especifica para qual mídia / dispositivo o URL de destino é otimizado
+                </td>
+              </tr>
+
+              <tr>
+                <td>referrerpolicy</td>
+                <td>
+                    no-referrer<br />
+                    no-referrer-when-downgrade<br />
+                    origin<br />
+                    origin-when-cross-origin<br />
+                    same-origin<br />
+                    strict-origin-when-cross-origin<br />
+                    unsafe-url
+                </td>
+                <td>
+                    Especifica quais informações de referência enviar com o link
+                </td>
+              </tr>
+
+              <tr>
+                <td>rel</td>
+                <td>
+                    alternate<br />
+                    author<br />
+                    bookmark<br />
+                    help<br />
+                    license<br />
+                    next<br />
+                    nofollow<br />
+                    noreferrer<br />
+                    prefetch<br />
+                    prev<br />
+                    search<br />
+                    tag<br />
+                </td>
+                <td>
+                    Especifica a relação entre o documento atual e o URL de destino
+                </td>
+              </tr>
+
+              <tr>
+                <td>shape</td>
+                <td>
+                    default<br />
+                    rect<br />
+                    circle<br />
+                    poly<br />
+                </td>
+                <td>
+                    Especifica a forma da área
+                </td>
+              </tr>
+
+              <tr>
+                <td>target</td>
+                <td>
+                    _blank<br />
+                    _parent<br />
+                    _self<br />
+                    _top<br />
+                    framename<br />
+                </td>
+                <td>
+                    Especifica onde abrir o URL de destino
+                </td>
+              </tr>
+
+              <tr>
+                <td>type</td>
+                <td><i>media_type</i></td>
+                <td>
+                    Especifica o tipo de mídia do URL de destino
+                </td>
+              </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    </div>
+    
+    <hr />
+    <footer>
+      <a href="../../html/referencias.html#script">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+      <p>
+        IFNMG - Campus Montes Claros<br />
+        Desenvolvimento Web<br />
+        ©2021
+      </p>
+    </footer>
+  </body>
+</html>
