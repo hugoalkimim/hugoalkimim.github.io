@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A tag &lt;colgroup&gt;</title>
+    <link rel="stylesheet" href="../../../global.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Tag &lt;colgroup&gt;</h1>
+      <a href="../../html/referencias.html#colgroup">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+    </div>
+    <hr />
+    <div class="tag_content">
+      <h2>Definição e Uso</h2>
+      <div class="def">
+        <p>
+          A tag &lt;colgroup&gt; especifica um grupo de uma ou mais colunas em uma
+          tabela para formatação.<br />
+          A tag &lt;colgroup&gt; é útil para aplicar estilos a uma coluna inteira,
+          ao invés de repetir os estilos para cada célula, para cada linha.<br />
+          Nota: A tag &lt;colgroup&gt; precisa ser um filho de uma tag
+          &lt;table&gt;, depois da tag &lt;caption&gt; e antes de quaisquer tags
+          &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;, e &lt;tr&gt;.<br />
+          Dica: Para definir diferentes propriedades para uma coluna com a tag
+          &lt;colgroup&gt;, use a tag &lt;col&gt; con a tag &lt;colgroup&gt;.<br />
+        </p>
+      </div>
+  
+      <h2>Exemplo</h2>
+      <p>
+        Define a cor de fundo de três colunas com a tags &lt;colgroup&gt; e
+        &lt;col&gt;:
+      </p>
+      <div class="code">
+        <pre>
+              <code>
+                  &lt;table&gt;
+                      &lt;colgroup&gt;
+                          &lt;col span="2" style="background-color:red"&gt;
+                          &lt;col style="background-color:yellow"&gt;
+                      &lt;/colgroup&gt;
+                      &lt;tr&gt;
+                          &lt;th&gt;ISBN&lt;/th&gt;
+                          &lt;th&gt;Title&lt;/th&gt;
+                          &lt;th&gt;Price&lt;/th&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                          &lt;td&gt;3476896&lt;/td&gt;
+                          &lt;td&gt;My first HTML&lt;/td&gt;
+                          &lt;td&gt;$53&lt;/td&gt;
+                      &lt;/tr&gt;
+                &lt;/table&gt;
+              </code>
+          </pre>
+      </div>
+  
+      <h2>Atributos</h2>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Valor</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>span</td>
+              <td><i>number</i></td>
+              <td>
+                Especifica o número de colunas que um grupo de colunas que a deve
+                atuar
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+   
+    <hr />
+    <footer>
+      <a href="../../html/referencias.html#colgroup">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+      <p>
+        IFNMG - Campus Montes Claros<br />
+        Desenvolvimento Web<br />
+        ©2021
+      </p>
+    </footer>
+  </body>
+</html>

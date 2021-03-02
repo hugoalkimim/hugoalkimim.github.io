@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2f3337;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #e7e8eb;
+}
+
+#content {
+  display: flex;
+  /* border: 1px solid black; */
+  /* padding: 2rem; */
+  justify-content: center;
+}
+#title {
+  text-align: center;
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+
+.membro {
+  align-items: center;
+  text-align: center;
+}
+
+.membro:not(:first-child) {
+  margin-left: 40px;
+}
+
+.membro .avatar {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #2f3337;
+  border-radius: 50%;
+}
+
+.membro {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  padding: 35px;
+  width: 400px;
+  height: 600px;
+  color: #2f3337;
+  border: 1px solid #2f3337;
+  border-radius: 5px;
+}
+.membro p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#m1 {
+  background-color: #ffdbdb;
+}
+#m2 {
+  background-color: #b8dcf5;
+}
+#m3 {
+  background-color: #ffe7a9;
+}
+
+.membro .btn_github {
+  display: flex;
+  width: 400px;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #e7e8eb;
+  border-radius: 5px;
+  background-color: #2f3337;
+  text-decoration: none;
+}
+
+.btn_github img {
+  width: 10px;
+  height: 60px;
+  flex-grow: 2;
+}
+
+.btn_github span {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  width: 40px;
+  height: 60px;
+  flex-grow: 5;
+  align-items: center;
+  color: #e7e8eb;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  height: 220px;
+}
+
+.btn_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  text-decoration: none;
+
+  width: 200px;
+  height: 60px;
+  border: 1px solid #2f3337;
+  border-radius: 5px;
+  background: #e0f6ce;
+  margin: 40px;
+  color: #2f3337;
+}

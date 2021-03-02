@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f3337;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #e7e8eb;
+  
+}
+.table table {
+  width: 50%;
+  border: 2px solid #e7e8eb;
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+.table thead {
+  border: 2px solid #e7e8eb;
+}
+
+.table thead th {
+  padding: 1em;
+}
+
+.table tbody td {
+  padding: 2em;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #e7e8eb;
+  color: #2f3337;
+}
+
+.table tbody tr:nth-child(odd) a {
+  color: #2f3337;
+  text-decoration: none;
+}
+
+.table tbody tr a {
+  color: #e7e8eb;
+  text-decoration: none;
+}
+
+/* td, th{
+  border-right: solid 2px #E0F6CE; 
+  border-left: solid 2px #E0F6CE;
+} */
+
+.table tbody tr:nth-child(odd) td:not(:last-child) {
+  border-right: solid 2px #2f3337;
+  /* border-left: solid 2px #2f3337; */
+}
+
+.table tbody tr:nth-child(even) td:not(:last-child) {
+  border-right: solid 2px #e7e8eb;
+  /* border-left: solid 2px #e7e8eb; */
+}
+
+.cabecalho {
+  text-align: center;
+}
+.cabecalho a {
+  text-decoration: none;
+  color: #ffe7a9;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cabecalho h1 {
+  font-size: 36px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffe7a9;
+  /* background-color: #ffe7a9; */
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  /* border: solid 1px #ffe7a9; */
+  /* border-radius: 5px; */
+}
+footer p {
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+hr {
+  margin-top: 25px;
+  border-color: #b8dcf5;
+}
+
+h2, .def, .code, .tag_content p{
+  width: 50%;
+  /* align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#introducao p {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
